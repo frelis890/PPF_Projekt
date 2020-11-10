@@ -1,0 +1,1 @@
+Projekt zaliczeniowy z przedmiotu "Projektowanie i programowanie front-end". Autorki: Lisa Fretschel i Zuzanna Jędrusik, 12K1 P01. 
