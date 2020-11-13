@@ -30,8 +30,8 @@ p {
         "div_nav_area   div_art_img4_area   div_art_text4_area"
         "div_nav_area   div_art_img5_area   div_art_text5_area"
         "div_nav_area   div_art_img5_area   div_art_text5_area"
-        "div_nav_area   div_art_video_area  div_art_video_area"
-        "div_nav_area   div_art_video_area  div_art_video_area"
+        "div_nav_area   div_art_img6_area   div_art_text6_area"
+        "div_nav_area   div_art_img6_area   div_art_text6_area"
         "div_foot_area  div_foot_area       div_foot_area";
 }
 
@@ -130,8 +130,14 @@ p {
     background-color: #191919;
 }
 
-.div_art_video {
-    grid-area: div_art_video_area;
+.div_art_img6 {
+    grid-area: div_art_img6_area;
+    padding: 10px;
+    background-color: #191919;
+}
+.div_art_text6 {
+    color: #cccccc;
+    grid-area: div_art_text6_area;
     padding: 10px;
     background-color: #191919;
 }
@@ -150,17 +156,17 @@ p {
             "div_head_area  div_head_area       div_head_area"
             "div_nav_area   div_art_header_area div_art_header_area"
             "div_nav_area   div_art_img1_area   div_art_img1_area"
-            "div_nav_area   div_art_text1_area   div_art_text1_area"
+            "div_nav_area   div_art_text1_area  div_art_text1_area"
             "div_nav_area   div_art_img2_area   div_art_img2_area"
-            "div_nav_area   div_art_text2_area   div_art_text2_area"
+            "div_nav_area   div_art_text2_area  div_art_text2_area"
             "div_nav_area   div_art_img3_area   div_art_img3_area"
-            "div_nav_area   div_art_text3_area   div_art_text3_area"
+            "div_nav_area   div_art_text3_area  div_art_text3_area"
             "div_nav_area   div_art_img4_area   div_art_img4_area"
-            "div_nav_area   div_art_text4_area   div_art_text4_area"
+            "div_nav_area   div_art_text4_area  div_art_text4_area"
             "div_nav_area   div_art_img5_area   div_art_img5_area"
-            "div_nav_area   div_art_text5_area   div_art_text5_area"
-            "div_nav_area   div_art_video_area  div_art_video_area"
-            "div_nav_area   div_art_video_area  div_art_video_area"
+            "div_nav_area   div_art_text5_area  div_art_text5_area"
+            "div_nav_area   div_art_img6_area   div_art_img6_area"
+            "div_nav_area   div_art_text6_area  div_art_text6_area"
             "div_foot_area  div_foot_area       div_foot_area";
    }
 }
@@ -180,7 +186,8 @@ p {
             "div_art_text4_area     div_art_text4_area   div_art_text4_area"
             "div_art_img5_area      div_art_img5_area    div_art_img5_area"
             "div_art_text5_area     div_art_text5_area   div_art_text5_area"
-            "div_art_video_area     div_art_video_area   div_art_video_area"
+            "div_art_img6_area      div_art_img6_area    div_art_img6_area"
+            "div_art_text6_area     div_art_text6_area   div_art_text6_area"
             "div_foot_area          div_foot_area        div_foot_area";
    } 
 }
