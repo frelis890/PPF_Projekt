@@ -5,6 +5,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
+    color: #cccccc;
     font-size: 20px;
     width: 100%;
 }
@@ -42,13 +43,13 @@ p {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: rgb(182,182,182);
+    background-color: #400080;
     padding: 10px;
 }
 .div_head h1 {
-    color: rgb(45,3,230);
+    color: #cccccc;
     flex: 1 1 auto;
-    font-size: 24px;
+    font-size: 38px;
     text-align: center;
 }
 
@@ -68,74 +69,79 @@ p {
 .div_art_header {
     grid-area: div_art_header_area;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #191919;
 }
 
 .div_art_img1 {
     grid-area: div_art_img1_area;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #191919;
 }
 .div_art_text1 {
+    color: #cccccc;
     grid-area: div_art_text1_area;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #191919;
 }
 .div_art_img2 {
     grid-area: div_art_img2_area;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #191919;
 }
 
 .div_art_text2 {
+    color: #cccccc;
     grid-area: div_art_text2_area;
     padding: 10px;
-    background-color: #f1f1f1; 
+    background-color: #191919; 
 }
 
 .div_art_img3 {
     grid-area: div_art_img3_area;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #191919;
 }
 .div_art_text3 {
+    color: #cccccc;
     grid-area: div_art_text3_area;
     padding: 10px;
-    background-color: #f1f1f1; 
+    background-color: #191919; 
 }
 .div_art_img4 {
     grid-area: div_art_img4_area;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #191919;
 }
 .div_art_text4 {
+    color: #cccccc;
     grid-area: div_art_text4_area;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #191919;
 }
 .div_art_img5 {
     grid-area: div_art_img5_area;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #191919;
 }
 .div_art_text5 {
+    color: #cccccc;
     grid-area: div_art_text5_area;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #191919;
 }
 
 .div_art_video {
     grid-area: div_art_video_area;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #191919;
 }
 
 .div_foot {
     grid-area: div_foot_area;
-    background-color: rgb(182,182,182);
+    background-color: #400080;
     padding: 10px;
     text-align: center;
-    color: rgb(45,3,230);
+    color: #cccccc;
 }
 
 @media screen and (max-width: 1025px) {
