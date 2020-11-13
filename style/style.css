@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #191919;
 }
 h2 {
     color: #cccccc;
@@ -15,24 +16,20 @@ p {
 
 .main_page {
     display: grid;
-    grid-template-columns: 2fr 2fr 6fr;
+    grid-template-columns: 3fr 6fr 6fr 6fr;
     grid-template-rows: auto * 15;
     grid-template-areas:
-        "div_head_area  div_head_area       div_head_area"
-        "div_nav_area   div_art_header_area div_art_header_area"
-        "div_nav_area   div_art_img1_area   div_art_text1_area"
-        "div_nav_area   div_art_img1_area   div_art_text1_area"
-        "div_nav_area   div_art_img2_area   div_art_text2_area"
-        "div_nav_area   div_art_img2_area   div_art_text2_area"
-        "div_nav_area   div_art_img3_area   div_art_text3_area"
-        "div_nav_area   div_art_img3_area   div_art_text3_area"
-        "div_nav_area   div_art_img4_area   div_art_text4_area"
-        "div_nav_area   div_art_img4_area   div_art_text4_area"
-        "div_nav_area   div_art_img5_area   div_art_text5_area"
-        "div_nav_area   div_art_img5_area   div_art_text5_area"
-        "div_nav_area   div_art_img6_area   div_art_text6_area"
-        "div_nav_area   div_art_img6_area   div_art_text6_area"
-        "div_foot_area  div_foot_area       div_foot_area";
+        "div_head_area  div_head_area       div_head_area         div_head_area"
+        "div_nav_area   div_art_header_area div_art_header_area   div_art_header_area"
+        "div_nav_area   div_art_img1_area   div_art_img2_area     div_art_img3_area"
+        "div_nav_area   div_art_img1_area   div_art_img2_area     div_art_img3_area"
+        "div_nav_area   div_art_text1_area  div_art_text2_area    div_art_text3_area"
+        "div_nav_area   div_art_text1_area  div_art_text2_area    div_art_text3_area"
+        "div_nav_area   div_art_img4_area   div_art_img5_area     div_art_img6_area"
+        "div_nav_area   div_art_img4_area   div_art_img5_area     div_art_img6_area"
+        "div_nav_area   div_art_text4_area  div_art_text5_area    div_art_text6_area"
+        "div_nav_area   div_art_text4_area  div_art_text5_area    div_art_text6_area"
+        "div_foot_area  div_foot_area       div_foot_area         div_foot_area";
 }
 
 .div_head {
@@ -44,19 +41,19 @@ p {
     justify-content: center;
     width: 100%;
     background-color: #400080;
-    padding: 10px;
+    padding: 5px;
 }
 .div_head h1 {
     color: #cccccc;
     flex: 1 1 auto;
-    font-size: 38px;
+    font-size: 45px;
     text-align: center;
 }
 
 .div_nav {
     grid-area: div_nav_area;
     background-color: #cccccc;
-    padding: 20px;
+    padding: 10px;
 }
 .mainitem_nav ul {
     list-style-type: none;
@@ -76,17 +73,20 @@ p {
     grid-area: div_art_img1_area;
     padding: 10px;
     background-color: #191919;
+    place-self: center;
 }
 .div_art_text1 {
     color: #cccccc;
     grid-area: div_art_text1_area;
     padding: 10px;
     background-color: #191919;
+    place-self: center;
 }
 .div_art_img2 {
     grid-area: div_art_img2_area;
     padding: 10px;
     background-color: #191919;
+    place-self: center;
 }
 
 .div_art_text2 {
@@ -94,52 +94,61 @@ p {
     grid-area: div_art_text2_area;
     padding: 10px;
     background-color: #191919; 
+    place-self: center;
 }
 
 .div_art_img3 {
     grid-area: div_art_img3_area;
     padding: 10px;
     background-color: #191919;
+    place-self: center;
 }
 .div_art_text3 {
     color: #cccccc;
     grid-area: div_art_text3_area;
     padding: 10px;
-    background-color: #191919; 
+    background-color: #191919;
+    place-self: center; 
 }
 .div_art_img4 {
     grid-area: div_art_img4_area;
     padding: 10px;
     background-color: #191919;
+    place-self: center;
 }
 .div_art_text4 {
     color: #cccccc;
     grid-area: div_art_text4_area;
     padding: 10px;
     background-color: #191919;
+    place-self: center;
 }
 .div_art_img5 {
     grid-area: div_art_img5_area;
     padding: 10px;
     background-color: #191919;
+    place-self: center;
 }
 .div_art_text5 {
     color: #cccccc;
     grid-area: div_art_text5_area;
     padding: 10px;
     background-color: #191919;
+    place-self: center;
 }
 
 .div_art_img6 {
     grid-area: div_art_img6_area;
     padding: 10px;
     background-color: #191919;
+    place-self: center;
 }
 .div_art_text6 {
     color: #cccccc;
     grid-area: div_art_text6_area;
     padding: 10px;
     background-color: #191919;
+    place-self: center;
 }
 
 .div_foot {
