@@ -14,6 +14,17 @@ p {
     text-align: justify;
 }
 
+a:link, a:visited {
+    color: #008080;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 .main_page {
     display: grid;
     grid-template-columns: 3fr 6fr 6fr 6fr;
@@ -76,7 +87,7 @@ p {
     place-self: center;
 }
 .div_art_text1 {
-    color: #cccccc;
+    color: #008080;
     grid-area: div_art_text1_area;
     padding: 10px;
     background-color: #191919;
@@ -90,7 +101,7 @@ p {
 }
 
 .div_art_text2 {
-    color: #cccccc;
+    color: #008080;
     grid-area: div_art_text2_area;
     padding: 10px;
     background-color: #191919; 
@@ -104,7 +115,7 @@ p {
     place-self: center;
 }
 .div_art_text3 {
-    color: #cccccc;
+    color: #008080;
     grid-area: div_art_text3_area;
     padding: 10px;
     background-color: #191919;
@@ -117,7 +128,7 @@ p {
     place-self: center;
 }
 .div_art_text4 {
-    color: #cccccc;
+    color: #008080;
     grid-area: div_art_text4_area;
     padding: 10px;
     background-color: #191919;
@@ -130,7 +141,7 @@ p {
     place-self: center;
 }
 .div_art_text5 {
-    color: #cccccc;
+    color:  #008080;
     grid-area: div_art_text5_area;
     padding: 10px;
     background-color: #191919;
@@ -144,7 +155,7 @@ p {
     place-self: center;
 }
 .div_art_text6 {
-    color: #cccccc;
+    color: #008080;
     grid-area: div_art_text6_area;
     padding: 10px;
     background-color: #191919;
