@@ -7,11 +7,20 @@ body {
 }
 h2 {
     color: #cccccc;
-    font-size: 20px;
+    font-size: 30px;
     width: 100%;
 }
 p {
     text-align: justify;
+}
+
+li + li {
+    margin-top: 20px;
+}
+
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
 }
 
 a:link, a:visited {
