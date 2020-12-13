@@ -10,6 +10,18 @@ h2 {
     font-size: 30px;
     width: 100%;
 }
+h3 {
+    color: #cccccc;
+    font-size: 23px;
+    width: 100%;
+    text-align: center;
+}
+h4 {
+    color: #cccccc;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
 p {
     text-align: center;
 }
@@ -20,6 +32,13 @@ li + li {
 
 ul {
     list-style-type: none;
+}
+
+.decor {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 a:link, a:visited {
@@ -58,6 +77,8 @@ a:hover {
     grid-template-areas:
         "div_head_area  div_head_area       div_head_area           div_head_area"
         "div_nav_area   div_art_header_area div_art_header_area     div_art_header_area"
+        "div_nav_area   div_art_text7_area  div_art_text7_area      div_art_text7_area"
+        "div_nav_area   div_art_text7_area  div_art_text7_area      div_art_text7_area"
         "div_foot_area  div_foot_area       div_foot_area           div_foot_area";
 }
 
@@ -72,8 +93,8 @@ a:hover {
         "div_nav_area   div_art_img1_area   div_art_img1_area       div_art_img1_area"
         "div_nav_area   div_art_img1_area   div_art_img1_area       div_art_img1_area"
         "div_nav_area   div_art_img1_area   div_art_img1_area       div_art_img1_area"
-        "div_nav_area   div_art_text1_area  div_art_text1_area      div_art_text1_area"
-        "div_nav_area   div_art_text1_area  div_art_text1_area      div_art_text1_area"
+        "div_nav_area   div_art_text7_area  div_art_text7_area      div_art_text7_area"
+        "div_nav_area   div_art_text7_area  div_art_text7_area      div_art_text7_area"
         "div_foot_area  div_foot_area       div_foot_area           div_foot_area";
 }
 
@@ -99,13 +120,15 @@ a:hover {
     grid-area: div_nav_area;
     background-color: #cccccc;
     padding: 5px;
+    padding-top: 20px;
+    position: relative;
 }
 .mainitem_nav ul {
     list-style-type: none;
     padding: 0;
 }
 .mainitem_nav li {
-    padding-bottom: 12px;
+    padding-bottom: 15px;
 }
 
 .div_art_header {
@@ -195,13 +218,22 @@ a:hover {
     background-color: #191919;
     place-self: center;
 }
-
+.div_art_text7 {
+    color: #cccccc;
+    grid-area: div_art_text7_area;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: #191919;
+    place-self: center;
+}
 .div_foot {
     grid-area: div_foot_area;
     background-color: #400080;
-    padding: 10px;
+    padding: 8px;
     text-align: center;
     color: #cccccc;
+    padding-left: 70px;
 }
 
 @media screen and (max-width: 1025px) {
@@ -233,6 +265,8 @@ a:hover {
        grid-template-areas:
             "div_head_area  div_head_area       div_head_area"
             "div_nav_area   div_art_header_area div_art_header_area"
+            "div_nav_area   div_art_img1_area   div_art_img1_area"
+            "div_nav_area   div_art_text7_area  div_art_text7_area"
             "div_foot_area  div_foot_area       div_foot_area";
    }
 }
@@ -268,6 +302,8 @@ a:hover {
             "div_head_area          div_head_area         div_head_area"
             "div_nav_area           div_nav_area          div_nav_area"
             "div_art_header_area    div_art_header_area   div_art_header_area"
+            "div_art_img1_area      div_art_img1_area     div_art_img1_area"
+            "div_art_text7_area     div_art_text7_area    div_art_text7_area"
             "div_foot_area          div_foot_area         div_foot_area";
    }
 }
