@@ -52,6 +52,26 @@ a:hover {
         "div_foot_area  div_foot_area       div_foot_area         div_foot_area";
 }
 
+.side_page {
+    display: grid;
+    grid-template-columns: 3fr 2fr 10fr 2fr;
+    grid-template-rows: auto * 15;
+    grid-template-areas:
+        "div_head_area  div_head_area       div_head_area           div_head_area"
+        "div_nav_area   div_art_header_area div_art_header_area     div_art_header_area"
+        "div_foot_area  div_foot_area       div_foot_area           div_foot_area";
+}
+
+.book_page {
+    display: grid;
+    grid-template-columns: 3fr 2fr 10 fr 2fr;
+    grid-template-rows: auto * 15;
+    grid-template-areas:
+        "div_head_area  div_head_area       div_head_area           div_head_area"
+        "div_nav_area   div_art_header_area div_art_header_area     div_art_header_area"
+        "div_foot_area  div_foot_area       div_foot_area           div_foot_area";
+}
+
 .div_head {
     grid-area: div_head_area;
     display: flex;
@@ -198,6 +218,18 @@ a:hover {
             "div_nav_area   div_art_text6_area  div_art_text6_area"
             "div_foot_area  div_foot_area       div_foot_area";
    }
+   .side_page {
+        grid-template-areas:
+            "div_head_area  div_head_area       div_head_area"
+            "div_nav_area   div_art_header_area div_art_header_area"
+            "div_foot_area  div_foot_area       div_foot_area";
+   }
+   .book_page {
+       grid-template-areas:
+            "div_head_area  div_head_area       div_head_area"
+            "div_nav_area   div_art_header_area div_art_header_area"
+            "div_foot_area  div_foot_area       div_foot_area";
+   }
 }
 @media screen and (max-width: 601px) {
     .main_page {
@@ -218,5 +250,19 @@ a:hover {
             "div_art_img6_area      div_art_img6_area    div_art_img6_area"
             "div_art_text6_area     div_art_text6_area   div_art_text6_area"
             "div_foot_area          div_foot_area        div_foot_area";
+   }
+   .side_page {
+       grid-template-areas:
+            "div_head_area          div_head_area         div_head_area"
+            "div_nav_area           div_nav_area          div_nav_area"
+            "div_art_header_area    div_art_header_area   div_art_header_area"
+            "div_foot_area          div_foot_area         div_foot_area";
    } 
+   .book_page {
+       grid-template-areas:
+            "div_head_area          div_head_area         div_head_area"
+            "div_nav_area           div_nav_area          div_nav_area"
+            "div_art_header_area    div_art_header_area   div_art_header_area"
+            "div_foot_area          div_foot_area         div_foot_area";
+   }
 }
