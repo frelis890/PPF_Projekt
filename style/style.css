@@ -22,8 +22,20 @@ h4 {
     width: 100%;
     text-align: center;
 }
+h5 {
+    color: #cccccc;
+    font-size: 30px;
+    width: 100%;
+}
+h6 {
+    color: #cccccc;
+    font-size: 18px;
+    width: 100%;
+}
 p {
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-character;
+    line-height: 2; 
 }
 
 li + li {
@@ -84,18 +96,18 @@ a:hover {
 
 .book_page {
     display: grid;
-    grid-template-columns: 3fr 5fr 8fr 5fr;
+    grid-template-columns: 3fr 9fr 9fr;
     grid-template-rows: auto * 15;
     grid-template-areas:
-        "div_head_area  div_head_area       div_head_area           div_head_area"
-        "div_nav_area   div_art_header_area div_art_header_area     div_art_header_area"
-        "div_nav_area   div_art_img1_area   div_art_img1_area       div_art_img1_area"
-        "div_nav_area   div_art_img1_area   div_art_img1_area       div_art_img1_area"
-        "div_nav_area   div_art_img1_area   div_art_img1_area       div_art_img1_area"
-        "div_nav_area   div_art_img1_area   div_art_img1_area       div_art_img1_area"
-        "div_nav_area   div_art_text7_area  div_art_text7_area      div_art_text7_area"
-        "div_nav_area   div_art_text7_area  div_art_text7_area      div_art_text7_area"
-        "div_foot_area  div_foot_area       div_foot_area           div_foot_area";
+        "div_head_area  div_head_area       div_head_area"
+        "div_nav_area   div_art_header_area div_art_header_area"
+        "div_nav_area   div_art_img1_area   div_art_text8_area"
+        "div_nav_area   div_art_img1_area   div_art_text8_area"
+        "div_nav_area   div_art_img1_area   div_art_text7_area"
+        "div_nav_area   div_art_img1_area   div_art_text7_area"
+        "div_nav_area   div_art_text9_area  div_art_text9_area"
+        "div_nav_area   div_art_text9_area  div_art_text9_area"
+        "div_foot_area  div_foot_area       div_foot_area";
 }
 
 .div_head {
@@ -221,11 +233,25 @@ a:hover {
 .div_art_text7 {
     color: #cccccc;
     grid-area: div_art_text7_area;
-    padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    padding: 10px;
     background-color: #191919;
-    place-self: center;
+    justify-self: start;
+}
+.div_art_text8 {
+    color: #cccccc;
+    grid-area: div_art_text8_area;
+    padding: 10px;
+    background-color: #191919;
+    justify-self: start;
+}
+.div_art_text9 {
+    color: #cccccc;
+    grid-area: div_art_text9_area;
+    padding: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: #191919;
+   place-self: center; 
 }
 .div_foot {
     grid-area: div_foot_area;
