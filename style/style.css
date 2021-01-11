@@ -84,14 +84,16 @@ a:hover {
 
 .side_page {
     display: grid;
-    grid-template-columns: 3fr 5fr 8fr 5fr;
+    grid-template-columns: 3fr 18fr;
     grid-template-rows: auto * 15;
     grid-template-areas:
-        "div_head_area  div_head_area       div_head_area           div_head_area"
-        "div_nav_area   div_art_header_area div_art_header_area     div_art_header_area"
-        "div_nav_area   div_art_text7_area  div_art_text7_area      div_art_text7_area"
-        "div_nav_area   div_art_text7_area  div_art_text7_area      div_art_text7_area"
-        "div_foot_area  div_foot_area       div_foot_area           div_foot_area";
+        "div_head_area  div_head_area"
+        "div_nav_area   div_art_header_area"
+        "div_nav_area   div_art_img10_area"
+        "div_nav_area   div_art_img10_area"
+        "div_nav_area   div_art_text10_area"
+        "div_nav_area   div_art_text10_area"
+        "div_foot_area  div_foot_area";
 }
 
 .book_page {
@@ -253,6 +255,20 @@ a:hover {
     background-color: #191919;
    place-self: center; 
 }
+.div_art_img10 {
+    grid-area: div_art_img10_area;
+    padding: 10px;
+    background-color: #191919;
+    place-self: center;
+}
+
+.div_art_text10 {
+    color: #cccccc;
+    grid-area: div_art_text10_area;
+    padding: 10px;
+    background-color: #191919;
+    place-self: center;
+}
 .div_foot {
     grid-area: div_foot_area;
     background-color: #400080;
@@ -285,6 +301,8 @@ a:hover {
         grid-template-areas:
             "div_head_area  div_head_area       div_head_area"
             "div_nav_area   div_art_header_area div_art_header_area"
+            "div_nav_area   div_art_img10_area  div_art_img10_area"
+            "div_nav_area   div_art_text10_area div_art_text10_area"
             "div_foot_area  div_foot_area       div_foot_area";
    }
    .book_page {
