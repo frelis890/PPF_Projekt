@@ -34,8 +34,10 @@ h6 {
 }
 h7 {
     color: #cccccc;
-    font-size: 12px;
+    font-size: 18px;
     width: 100%;
+    place-self: center;
+    padding-top: 50px;
 }
 p {
     text-align: justify;
