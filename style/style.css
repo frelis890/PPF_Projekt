@@ -352,7 +352,9 @@ input[type=text], select, textarea {
             "div_head_area  div_head_area       div_head_area"
             "div_nav_area   div_art_header_area div_art_header_area"
             "div_nav_area   div_art_img1_area   div_art_img1_area"
+            "div_nav_area   div_art_text8_area  div_art_text8_area"
             "div_nav_area   div_art_text7_area  div_art_text7_area"
+            "div_nav_area   div_art_text9_area  div_art_text9_area"
             "div_foot_area  div_foot_area       div_foot_area";
    }
 }
@@ -378,15 +380,15 @@ input[type=text], select, textarea {
    }
    .side_page {
     grid-template-areas:
-        "div_head_area  div_head_area"      
-        "div_nav_area   div_art_header_area" 
-        "div_nav_area   container"           
-        "div_nav_area   container"           
-        "div_nav_area   div_art_text10_area"
-        "div_nav_area   div_art_text10_area"
-        "div_nav_area   div_art_img10_area"  
-        "div_nav_area   div_art_img10_area"  
-        "div_foot_area  div_foot_area";
+        "div_head_area         div_head_area"      
+        "div_nav_area          div_nav_area" 
+        "div_art_header_area   div_art_header_area"           
+        "container             container"           
+        "div_art_text10_area   div_art_text10_area"
+        "div_art_text10_area   div_art_text10_area"
+        "div_art_img10_area    div_art_img10_area"  
+        "div_art_img10_area    div_art_img10_area"  
+        "div_foot_area         div_foot_area";
     } 
    .book_page {
        grid-template-areas:
@@ -394,7 +396,9 @@ input[type=text], select, textarea {
             "div_nav_area           div_nav_area          div_nav_area"
             "div_art_header_area    div_art_header_area   div_art_header_area"
             "div_art_img1_area      div_art_img1_area     div_art_img1_area"
+            "div_art_text8_area     div_art_text8_area    div_art_text8_area"
             "div_art_text7_area     div_art_text7_area    div_art_text7_area"
+            "div_art_text9_area     div_art_text9_area    div_art_text9_area"
             "div_foot_area          div_foot_area         div_foot_area";
    }
 }
