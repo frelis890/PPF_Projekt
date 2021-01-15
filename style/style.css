@@ -333,14 +333,20 @@ input[type=text], select, textarea {
             "div_nav_area   div_art_text6_area  div_art_text6_area"
             "div_foot_area  div_foot_area       div_foot_area";
    }
+
    .side_page {
-        grid-template-areas:
-            "div_head_area  div_head_area       div_head_area"
-            "div_nav_area   div_art_header_area div_art_header_area"
-            "div_nav_area   div_art_img10_area  div_art_img10_area"
-            "div_nav_area   div_art_text10_area div_art_text10_area"
-            "div_foot_area  div_foot_area       div_foot_area";
-   }
+    grid-template-areas:
+        "div_head_area  div_head_area"      
+        "div_nav_area   div_art_header_area" 
+        "div_nav_area   container"           
+        "div_nav_area   container"           
+        "div_nav_area   div_art_text10_area"
+        "div_nav_area   div_art_text10_area"
+        "div_nav_area   div_art_img10_area"  
+        "div_nav_area   div_art_img10_area"  
+        "div_foot_area  div_foot_area";
+    }
+
    .book_page {
        grid-template-areas:
             "div_head_area  div_head_area       div_head_area"
@@ -371,12 +377,17 @@ input[type=text], select, textarea {
             "div_foot_area          div_foot_area        div_foot_area";
    }
    .side_page {
-       grid-template-areas:
-            "div_head_area          div_head_area         div_head_area"
-            "div_nav_area           div_nav_area          div_nav_area"
-            "div_art_header_area    div_art_header_area   div_art_header_area"
-            "div_foot_area          div_foot_area         div_foot_area";
-   } 
+    grid-template-areas:
+        "div_head_area  div_head_area"      
+        "div_nav_area   div_art_header_area" 
+        "div_nav_area   container"           
+        "div_nav_area   container"           
+        "div_nav_area   div_art_text10_area"
+        "div_nav_area   div_art_text10_area"
+        "div_nav_area   div_art_img10_area"  
+        "div_nav_area   div_art_img10_area"  
+        "div_foot_area  div_foot_area";
+    } 
    .book_page {
        grid-template-areas:
             "div_head_area          div_head_area         div_head_area"
